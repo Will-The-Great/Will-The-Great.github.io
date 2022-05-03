@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ani.css">
+    <link rel="icon" type="image/x-icon" href="animals.jpg">
+</head>
+<body>
+   <nav>
+<ul class="topnav" id="willthegreat">
+<li><a>Home</a></li>
+<li><a>News</a></li>
+<li><a>Contact</a></li>
+<li><a>About</a></li>
+<li class="righti"><a>SignIn</a></li>
+<li class="righti"><a>SignOut</a></li>
+<li class="droppey"><a href="javascript:void(0);" onclick="droppeyboy()">&#9776;</a></li>
+</ul>
+   </nav>
+
+<script>
+   function droppeyboy() {
+     var x = document.getElementById("willthegreat");
+      if (x.className === "topnav") {
+      x.className += " responsive";
+   }
+   else {
+      x.className = "topnav";
+   }
+}
+</script>
+
+<div class="container" id="gradient">
+
+<div class="row">
+<div class="col-6">
+<div class="leftSide-col">
+   <h1 class="large">Crazy Radness</h1>
+   <h1 class="large">Made for Deveopers</h1>
+        </div>
+<form>
+      <div class="leftSide-col" >
+         <h2>Username</h2>
+         <input class="inputbox" name="username" type="text" placeholder="Username">
+         <h2>Password</h2>
+         <input class="inputbox" name="password" type="text" placeholder="Password">
+      </div>
+   </form>
+</div>
+    <div class="col-6">
+    <div class="righted-col">
+    <div class="video-c">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/mhE-Mp07RTo" 
+      title="YouTube video player" frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+      picture-in-picture" allowfullscreen></iframe>
+</div>
+   </div>
+   </div>
+</div>
+</div>
+
+<header>
+<h1 class="sec-header">The Standard of Awesomeness </h1>
+</header>
+
+<div class="container">
+   <div class="row">
+      <div class="col-4">
+<div class="box">
+<div class="lion-pic">
+   <img src="logo.jpg">
+</div>
+<label>Talk To A Lion</label>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+   sed do eiusmod tempor 
+   incididunt ut labore et dolore magna aliqua.</p>
+</div>
+      </div>
+      <div class="col-4">
+         <div class="box">
+         <div class="lion-pic">
+            <img src="logo.jpg">
+         </div>
+         <label>Ruler of My Jungle</label>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua.</p>
+         </div>
+               </div>
+               <div class="col-4">
+                  <div class="box">
+                  <div class="lion-pic">
+                     <img src="logo.jpg">
+                  </div>
+                  <label>King of My Jungle</label>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                     sed do eiusmod tempor 
+                     incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                        </div>
+   </div>
+   <div class="row"></div>
+   <div class="col-12"> <button class="learn-m">Learn More</button></div>
+</div>
+
+</body>
+</html>
